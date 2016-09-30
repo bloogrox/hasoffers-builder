@@ -208,6 +208,9 @@ class Model(object):
             else:
                 self.__dict__[k] = v
 
+    def __str__(self):
+        return str(self.__dict__)
+
 
 class Mapper(object):
 
